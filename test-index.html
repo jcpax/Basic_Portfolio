@@ -1,36 +1,74 @@
-<!DOCTYPE html>
+<!Doctype html>
 <head>
-<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+<style type="text/css">
+.wrapper{
+	width: 960px;
+	position: fixed;
+}
+.header{
+	width: 960px;
+	height: 40px;
+}
+ul{
+	float: right;
+}
+.clearfix{
+	overflow: auto;}
+}
+/* Main section */
+.section1{
+	width: 650px;
+	background-color: lightblue;
+	display: inline;
+}
+
+/* Contact Info w/pictures section */
+.section2{
+			display: inline;
+			width: 270px;
+			position: absolute;
+			left: 65%;
+			top: 80px;
+			background-color: pink;
+}
+h3{
+	text-align:center;
+}
+.logos{
+	width: 30px;
+}
+.footer{
+
+}
+</style>
 </head>
 <body>
 <div class="wrapper">
-	<header
+<div class="header">
 	<h1>Julia Paxton</h1>
 	<ul>
 		<li><a href="index.html">About</a></li>
 		<li><a href="portfolio.html">Portfolio</a></li>
 		<li><a href="contact.html">Contact</a></li>
 	</ul>
-	</header>
+	</div>
 
-	<section>
+<div class="section1">
 		<h2>About Me</h2>
 		<div class="clearfix">
-		<p><img class="profile" src="assets/images/me.jpeg" alt="My Photo">
+		<p> <img class="profile" src="assets/images/me.jpeg" alt="My Photo">
 		My name is Julia Paxton. I am originally from Denver Colorado but recently moved down to Austin. I attended college at Baylor University where I got a bachelor degree in Graphic Design with an emphasis in marketing. I am excited to be a part of the UT Coding Bootcamp and am looking forward to learning new skills I can put forth to a new job.</p>
-	
-	</section>
-		</div>
+	</div>
 
-	<aside>
+<div class="section2">
 		<h3>Contact Me</h3>
 			<a class="logos" href="https://github.com/jcpax"> <img src="#"></a>
 			<a class="logos" href="linkedin.com"><img src="#"></a>
 			<a class="logos" href="#"><img src="#"></a>
-	</aside>
+</div>
 
-	<footer>
+	<div class="footer">
 		<h4>@Copyright 2016 Julia Paxton</h4>
-	</footer>
-
+	</div>
+</div>
 </body>
